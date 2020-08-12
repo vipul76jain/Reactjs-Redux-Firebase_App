@@ -1,0 +1,77 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #09d3ac;
+  }
+  
+  .header {
+    background-color: cadetblue;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    height: 8%;
+    display: flex;
+  }
+  
+  .left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end
+  }
+  
+  .right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  
+  .buttons {
+    margin-right: 20px;
+    display: flex;
+  }
+  
+  .btn-primary {
+    margin-right: 15px;
+    font-size: 14px;
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    border-color: transparent;
+  }
+  
+  .btn-primary:hover {
+    color: #fff;
+    background-color: darkcyan;
+    border-color: transparent;
+  }
+  .card {
+    background-color: aqua;
+    width: 300px;
+    margin: 30px;
+  }
+  
+  li {
+    margin-bottom: 8px;
+  }
+  
